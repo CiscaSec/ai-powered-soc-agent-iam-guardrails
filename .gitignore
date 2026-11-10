@@ -1,0 +1,25 @@
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Private keys and certificates
+*.pem
+*.key
+
+# Test and editor files
+.pytest_cache/
+.vscode/
